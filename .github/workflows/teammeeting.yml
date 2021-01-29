@@ -1,7 +1,7 @@
 name: Daily Standup
 on:
   schedule:
-  - cron: "* * * * *" # Every day at noon – https://crontab.guru
+  - cron: "0 */2 * * *" # Every day at noon – https://crontab.guru
   workflow_dispatch:
 
 jobs:
