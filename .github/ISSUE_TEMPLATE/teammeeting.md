@@ -5,4 +5,3 @@ title: "Weekly Meeting Notes: {{ date | date('MMMM Do') }} - {{ date | date('add
 labels:
   - "Meeting 💬"
 ---
-### Monday, {{ date | date('MMM Do') }}
