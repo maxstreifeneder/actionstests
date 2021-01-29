@@ -1,8 +1,8 @@
 ---
-name: Team Meeting Items 
-about: Used for gathering items for our team meeting with a new issue every week.
-title: "Weekly Team meeting: {{ date | date('add', 5, 'days') | date('Fr') }}"
+name: Weekly Meeting Notes
+about: Used for taking notes in our daily standups, with a new issue every week.
+title: "Weekly Meeting Notes: {{ date | date('MMMM Do') }} - {{ date | date('add', 5, 'days') | date('Do') }}"
 labels:
-  - "teammeeting"
+  - "Meeting 💬"
 ---
-### Friday, {{ date | date('MMM Do') }}
+### Monday, {{ date | date('MMM Do') }}
